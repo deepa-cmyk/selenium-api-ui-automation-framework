@@ -233,7 +233,7 @@ public class WebFormElements extends BaseTest{
         WebElement fileInput = SeleniumHelper.findWebElementByCSS(fileInputSelector);
 
         // Define the path to the file to be uploaded (adjust the file path accordingly)
-        String filePath = "src/test/resources/web/features/test"; // Replace with your file path
+        String filePath = "src/test/resources/web/testData/test"; // Replace with your file path
         fileInput.sendKeys(filePath);
         SeleniumHelper.findWebElementByCSS(textAreaLocator).click();
         String uploadedFileName = fileInput.getAttribute("value");

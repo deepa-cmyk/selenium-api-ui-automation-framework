@@ -1,6 +1,7 @@
 package com.test.api.helper;
 
 public class Endpoint {
+    //Base URL for API
     public static final String baseURL = "https://swapi.dev/";
 
     // Endpoints
