@@ -26,7 +26,7 @@ To get started with this framework, you need to have the following installed on 
 
 1. **Clone the Project**
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/deepa-cmyk/selenium-api-ui-automation-framework.git)
    ```
 Open the Project Open the project in your favorite IDE (e.g., IntelliJ IDEA or Eclipse).
 
